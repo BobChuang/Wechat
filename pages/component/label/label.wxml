@@ -1,0 +1,8 @@
+<view class="section section_gap">
+    <view class="section__title">表单组件在label内</view>
+    <checkbox-group class="group" bindchange="checkboxChange">
+        <view class="label-1" wx:for="{{checkboxItems}}">
+            
+        </view>
+    </checkbox-group>
+</view>

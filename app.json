@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index",
+    "pages/component/index/index",
+    "pages/component/setData/setData",
+    "pages/component/swiper/swiper",
+    "pages/component/text/text",
+    "pages/component/progress/progress",
+    "pages/component/button/button",
+    "pages/component/checkbox/checkbox",
+    "pages/component/form/form",
+    "pages/component/input/input"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  }
+}

@@ -1,0 +1,8 @@
+<view>
+    <text>{{text}}</text>
+    <button bindtap="add">Add Line</button>
+    <button bindtap="remove">Remove Line</button>
+    <button bindtap="addBefore">Add Before</button>
+    <button bindtap="removeBefore">Remove Before</button>
+    <button bindtap="splice">Splice The Second Line</button>
+</view>
