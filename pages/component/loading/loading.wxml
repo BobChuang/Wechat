@@ -1,0 +1,6 @@
+<view class="body-view">
+    <loading hidden="{{hidden}}" bindchange="loadingChange">
+        加载中...
+    </loading>
+    <button type="primary" bindtap="loadingTap" loading="{{!hidden}}">点击弹出loading</button>
+</view>

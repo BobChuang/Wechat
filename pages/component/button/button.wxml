@@ -5,3 +5,27 @@
 <button bindtap="setDisabled">点击设置以上按钮disabled属性</button>
 <button bindtap="setPlain">点击设置以上按钮plain属性</button>
 <button bindtap="setLoading">点击设置以上按钮loading属性</button>
+
+<block wx:for="{{array}}">
+    <view>
+        <image src="{{item.picUrl}}"/>
+        <text>{{item.nickName}}</text>
+    </view>
+</block>
+
+<!--<view class="news-item-container">
+    <block wx:for="{{list}}" wx:for-index="id">
+      <text wx:if="{{item.header}}" class="sub-title">{{item.header}}</text>
+      <navigator wx:else url="../detail/detail?id={{item.id}}">
+        <view class="news-item" >
+          <view class="news-item-left">
+            <text class="news-item-title">{{item.title}}</text>
+          </view>
+          <view class="news-item-right">
+            <image src="{{item.images[0]}}" class="news-image"/>
+          </view>
+        </view>
+      </navigator>
+    </block>
+    <button type="primary" class="load-btn" size="mini" loading="{{loading}}" plain="{{plain}}" bindtap="loadMore"> 更多 </button>
+  </view>-->
